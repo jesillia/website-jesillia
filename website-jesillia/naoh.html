@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Struktur NaOH</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #ffe6f0;
+      color: #333;
+      text-align: center;
+    }
+    nav {
+      background-color: #ff80aa;
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      padding: 15px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+    nav a:hover {
+      color: #ffe6f0;
+    }
+    h1 {
+      color: #ff4d94;
+      margin-top: 30px;
+    }
+    .molecule {
+      position: relative;
+      width: 300px;
+      height: 300px;
+      margin: 40px auto;
+    }
+    .atom {
+      position: absolute;
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-weight: bold;
+      font-size: 1.3em;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+    .na { background-color: #4da6ff; top: 110px; left: 0; }
+    .o { background-color: #ff4d4d; top: 110px; left: 110px; }
+    .h { background-color: #cccccc; top: 110px; left: 220px; }
+    .bond {
+      position: absolute;
+      width: 60px;
+      height: 4px;
+      background-color: #555;
+      top: 150px;
+      transform-origin: left center;
+    }
+    .bond1 { left: 80px; }
+    .bond2 { left: 190px; }
+    p {
+      max-width: 600px;
+      margin: 20px auto;
+      font-size: 1.1em;
+      line-height: 1.6;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #ff80aa;
+      color: white;
+      margin-top: 30px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <a href="index.html">Beranda</a>
+    <a href="naoh.html">Struktur NaOH</a>
+  </nav>
+
+  <h1>Struktur Molekul NaOH</h1>
+
+  <div class="molecule">
+    <div class="atom na">Na</div>
+    <div class="bond bond1"></div>
+    <div class="atom o">O</div>
+    <div class="bond bond2"></div>
+    <div class="atom h">H</div>
+  </div>
+
+  <p>Struktur senyawa natrium hidroksida (NaOH) terdiri dari atom natrium (Na), oksigen (O), dan hidrogen (H). Atom Na berikatan ionik dengan gugus OH⁻, sedangkan O dan H berikatan kovalen. Senyawa ini dikenal sebagai basa kuat dan banyak digunakan dalam industri maupun laboratorium.</p>
+
+  <footer>
+    &copy; 2025 Jesillia Meyvi Pandelaki
+  </footer>
+</body>
+</html>
